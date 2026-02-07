@@ -1,0 +1,98 @@
+{
+  "light.living_room": {
+    "entity_id": "light.living_room",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Living Room",
+      "supported_color_modes": ["brightness", "color_temp"],
+      "brightness": 255,
+      "color_temp": 370,
+      "min_color_temp": 153,
+      "max_color_temp": 500
+    },
+    "last_changed": "2024-01-15T10:00:00Z",
+    "last_updated": "2024-01-15T10:00:00Z",
+    "context": {
+      "id": "01J4A2B3C4D5E6F7G8H9I0J1",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  "light.bedroom": {
+    "entity_id": "light.bedroom",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Bedroom",
+      "supported_color_modes": ["brightness"],
+      "brightness": 0
+    },
+    "last_changed": "2024-01-15T10:00:00Z",
+    "last_updated": "2024-01-15T10:00:00Z",
+    "context": {
+      "id": "01J4A2B3C4D5E6F7G8H9I0J2",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  "switch.kitchen": {
+    "entity_id": "switch.kitchen",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Kitchen Switch"
+    },
+    "last_changed": "2024-01-15T10:00:00Z",
+    "last_updated": "2024-01-15T10:00:00Z",
+    "context": {
+      "id": "01J4A2B3C4D5E6F7G8H9I0J3",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  "sensor.temperature_living": {
+    "entity_id": "sensor.temperature_living",
+    "state": "22.5",
+    "attributes": {
+      "friendly_name": "Living Room Temperature",
+      "unit_of_measurement": "°C",
+      "device_class": "temperature"
+    },
+    "last_changed": "2024-01-15T10:00:00Z",
+    "last_updated": "2024-01-15T10:00:00Z",
+    "context": {
+      "id": "01J4A2B3C4D5E6F7G8H9I0J4",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  "sensor.humidity_living": {
+    "entity_id": "sensor.humidity_living",
+    "state": "45",
+    "attributes": {
+      "friendly_name": "Living Room Humidity",
+      "unit_of_measurement": "%",
+      "device_class": "humidity"
+    },
+    "last_changed": "2024-01-15T10:00:00Z",
+    "last_updated": "2024-01-15T10:00:00Z",
+    "context": {
+      "id": "01J4A2B3C4D5E6F7G8H9I0J5",
+      "user_id": null,
+      "parent_id": null
+    }
+  },
+  "sensor.motion_detector": {
+    "entity_id": "sensor.motion_detector",
+    "state": "off",
+    "attributes": {
+      "friendly_name": "Motion Detector",
+      "device_class": "motion"
+    },
+    "last_changed": "2024-01-15T10:00:00Z",
+    "last_updated": "2024-01-15T10:00:00Z",
+    "context": {
+      "id": "01J4A2B3C4D5E6F7G8H9I0J6",
+      "user_id": null,
+      "parent_id": null
+    }
+  }
+}
